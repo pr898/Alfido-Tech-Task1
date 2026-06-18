@@ -1,0 +1,14 @@
+
+Target: scanme.nmap.org
+IP:45.33.32.156
+Date:02-04-2026
+Tools: Nmap,Nikto
+
+FINDINGS:
+1.Apache 2.4.7 - Outdated (CVE rrisk)
+OpenSSH 6.6.1p1 - Outdated
+3.Missing security headers
+4.mod_negotiation enabled
+
+RISK: Medium
+FIX: Update Apache,add security headers 

@@ -1,0 +1,6 @@
+- Nikto v2.6.0/
++ Target Host: scanme.nmap.org
++ Target Port: 80
++ GET /index: Uncommon header(s) 'tcn' found, with contents: list.
++ GET /index: Apache mod_negotiation is enabled with MultiViews, which allows attackers to easily brute force file names. The following alternatives for 'index' were found: index.html. See: http://www.wisec.it/sectou.php?id=4698ebdc59d15,https://exchange.xforce.ibmcloud.com/vulnerabilities/8275: 
++ HEAD Apache/2.4.7 appears to be outdated (current is at least 2.4.66).
